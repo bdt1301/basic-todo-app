@@ -1,0 +1,31 @@
+.todo-item {
+    display: flex;
+    min-width: 360px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #e9ecef;
+
+    .task {
+        flex: 1;
+        cursor: pointer;
+    }
+
+    .task.done {
+        text-decoration: line-through;
+    }
+
+    .delete-btn {
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+        color: #dc3545;
+        padding: 4px 8px;
+        font-weight: 700;
+
+        &:hover {
+            color: #d58a92;
+        }
+    }
+}

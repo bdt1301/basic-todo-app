@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 640px;
+    height: 520px;
+    background-color: #fff;
+
+    .title {
+        margin-top: 40px;
+        margin-bottom: 24px;
+        font-size: 3.6rem;
+    }
+
+    .todo-list {
+        margin-bottom: 40px;
+        overflow-y: auto;
+    }
+}
